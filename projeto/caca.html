@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caça Níqueis Campeonato Carioca 2012 (SLOTS)</title>
+    <link type="text/css" rel="stylesheet" href="teste.css" />
+</head>
+
+<body>
+    <div id="corpo">
+
+        <div id="creditos_txt">
+            Créditos
+        </div>
+
+        <div id="creditos">
+            <form>
+                <input id="credito" type="text" size="5" value="R$ 0" readonly />
+            </form>
+        </div>
+
+        <div id="valor_txt">
+            Valor da Aposta
+        </div>
+
+        <div id="valor">
+            <form>
+                <input id="aposta" type="text" size="1" value="R$ 1" readonly />
+            </form>
+        </div>
+
+        <div id="tela">
+            <div id="slot1">
+                <img id="escud1" src="img/botafogo.png" />
+            </div>
+            <div id="slot2">
+                <img id="escud2" src="img/flamengo.png" />
+            </div>
+            <div id="slot3">
+                <img id="escud3" src="img/fluminense.png" />
+            </div>
+            <div id="slot4">
+                <img id="escud4" src="img/vasco.png" />
+            </div>
+        </div>
+
+        <div id="botoes">
+            <img src="img/apostamenos.gif" onMouseDown="this.src='img/apostamenos_p.gif';"
+                onMouseUp="this.src='img/apostamenos.gif';" onclick="apostaMenos();" />
+            <img src="img/apostamais.gif" onMouseDown="this.src='img/apostamais_p.gif';"
+                onMouseUp="this.src='img/apostamais.gif';" onclick="apostaMais();" />
+            <img src="img/jogar.gif" onMouseDown="this.src='img/jogar_p.gif';" onMouseUp="this.src='img/jogar.gif';"
+                onclick="jogar();" />
+        </div>
+
+        <div id="rodapé">
+            <a href="tabela.html" target='_blank'>Clique aqui para ver a Tabela de Prêmios que você poderá ganhar neste
+                jogo!</a>
+        </div>
+
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
